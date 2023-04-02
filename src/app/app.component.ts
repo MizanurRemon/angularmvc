@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularmvc';
+
+  cnt = 1
+  onClick(e: any){
+
+    e.stopPropagation()
+    this.cnt++;
+  }
+
+  divClick(){
+    console.log("div clickde")
+  }
+
+
+  bigDivClick(){
+    console.log("big div clickde")
+  }
 }

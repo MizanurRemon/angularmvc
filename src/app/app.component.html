@@ -1,4 +1,13 @@
 <h1>Main Component</h1>
+
+<p>{{cnt}}</p>
+<div (click) = "bigDivClick()">
+  <div (click)="divClick()">
+    <button (click) = "onClick($event)">Save</button>
+  </div>
+</div>
+
+<!--event bubbling:: use stopPropagation() for stopping event bubbling-->
 <ul>
   <li><app-blog></app-blog></li>
   <li><app-account></app-account></li>
