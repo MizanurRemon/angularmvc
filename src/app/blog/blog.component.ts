@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class BlogComponent {
 title = "Blog"
-animals = ['Cat','Dog','Elephant']
+blogs = ['Blog1','Blog2','Blog3']
 }
